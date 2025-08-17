@@ -1,0 +1,166 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(120deg, #1f1c2c,#028DAB);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.experience, .hobbies {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.social-links img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+/* About section */
+.about {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 14px;
+    max-width: 720px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    text-align: left;
+    color: #F5F5F7;
+}
+
+/* Section heading */
+.about h2 {
+    font-size: 1.25rem;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.6px;
+}
+
+/* Intro line with name & place highlight */
+.about .intro {
+    font-size: 1rem;
+    margin: 6px 0;
+    line-height: 1.4;
+    color: #EDEBF3;
+}
+.about .name, .about .place {
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+/* Main summary — bold, confident */
+.about .summary {
+    margin: 10px 0;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: #E7E5EA;
+}
+
+/* Value / intent line — subtle accent on left */
+.about .value {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    padding-left: 12px;
+    border-left: 3px solid rgba(255,255,255,0.08);
+    color: #DFDCE3;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+    .about { padding: 16px; border-radius: 12px; max-width: 92%; }
+    .about h2 { font-size: 1.05rem; }
+}
+.quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #FFD700;  /* Golden vibe */
+    text-shadow: 0 0 8px rgba(255,215,0,0.6);
+}
+.tech-stack, .github-status {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.social-links{
+    text-align: center;
+}
+.social-logo{
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+.social-logo:hover{
+    transform: scale(1.2);
+}
+/* By Default sa b device ke lie*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* Mobile ke liye(max 600px screen */
+@media (max-width: 600px){
+    body{
+        font-size: 14px; /* Text chhota*/
+    }
+    .container{
+        width: 100%; /*Poora screen cover karega*/
+        padding: 10px;
+    }
+    img{
+        width: 100%; /*Image Screen ke hisab se fit*/
+        height: auto;
+    }
+}
+/* tablet ke liye(601px se 1024px) */
+@media(min-width: 601px) and (min-width: 1024px){
+    body{
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+}
+/* laptop/desktop (1025px se upar) */
+@media(min-width: 1025px){
+    body{
+        font-size: 18px;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+}
